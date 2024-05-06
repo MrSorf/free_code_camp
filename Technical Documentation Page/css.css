@@ -1,0 +1,5 @@
+@media(min-wdith: 100) and (max-width: 350){
+.main-section{
+  width: 300
+}
+}

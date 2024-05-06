@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+section{
+  background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url('https://media.istockphoto.com/id/1830163120/photo/group-of-computer-programmers-talking-while-working-at-it-office.webp?b=1&s=170667a&w=0&k=20&c=VRIapK64DSelCb_UpBNP6fuTghDYSI6t9H2mYWFME80=');
+  background-size: cover;
+  background-repeat: no repeat;
+  min-height: 100vh;
+}
+.container{
+  width: 85%;
+  margin: auto;
+}
+nav{
+  height: 80px;
+}
+header{
+  float: left;
+}
+nav ul{
+  float: right;
+  line-height: 80px;
+  font-size: 35px;
+  font-size: inline;
+  color: #eb7620;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+padding: 0px 5px;
+}
+nav ul li a{
+  color: #eff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+nav ul li a:hover{
+  background-color: #eb6620;
+  transition: 0.5s ease;
+
+}
+nav ul li .Home{
+  background-color: #eb5620;
+}
+.article{
+  text-align: center;
+  width: 50%;
+  transform: translateY(25vh);
+  margin: auto;
+  color: #fff;
+}
+.caption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This makes the body take up the full height of the viewport */
+  margin: 0;
+}
+.article h1{
+ font-size:40px;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+   padding-left: 20px; /* Adjust the left padding */
+    padding-right: 20px; /* Adjust the right padding */
+    text-align: justify;  
+} 
+p{
+  font-size: 17px;
+  color: #7e7e7e;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.article .btn{
+  color: #fff;
+  padding: 12px 25px;
+  letter-spacing: 1.5px;        
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f15048;
+}
+.article .btn:hover{
+  background-color: #4399fa;
+  transition: 0.5s ease;
+}

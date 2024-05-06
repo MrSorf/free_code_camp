@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device width, initial scale 1.0">
+    <title> Myfirstproject</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title"> <b>Vectorhub Survey Form</b></h1>
+    <p id="description"> <i>Your response will help in the improvement of our services</i></p>
+    <form id="survey-form" method="post" action="freecodecamp.org">
+      
+      <fieldset>
+      <label for="first-name" id="name-label"> Enter your First Name:<input id="name" type="text" maxlength="30" size="35" placeholder="John"required/></label><div></div>
+      <label for="last-name" id="name">Enter your Last Name:<input id="name" type="text" maxlength="30" size="35" name="last-name"placeholder="Peter"</label>
+     <div> 
+      <label for="email" id="email-label"> Enter your Email address:</label>
+      <input class="input" id="email" type="email" maxlength="30"size="35" placeholder="johnpeter33@gmail.com" required/></div>
+     <div> <label for="number" id="number-label"> Enter your Phone No.</label>
+      <input type= "number" class="input"id="number" maxlength="30" size="35" min="11" max="11" placeholder="08057789766"/></div>
+    <div>  <label for="birthday"> Enter your Date of Birth:<div><input type="date" id="birthday" name="date-of-birth" maxlength="30" size="35" placeholder="DD-MM-YYY"/></label></div>
+        <label for="dropdown"> <h3>What is your current job</h3>
+        <select id="dropdown" placeholder="which of this best describe your job?">
+          <option value="">(select current job)</option>
+          <option>Student</option>
+      <option>Full-time</option>
+      <option>Part-time</option>
+      <option>Intern</option></select>
+      </fieldset>
+      <fieldset>
+<h3>Would you recommend Vectorhub to a friend?</h3>  
+        <input name="recommend"type="radio" value="Absolutely"/> 
+    Absolutely<div></div>
+        <input class="input" name="recommend" type="radio" value="Maybe"/> Maybe<div></div>
+        <input class="input" name="recommend" type="radio" value="Not sure"/>Not sure<div></div>
+      <h3> Which of these do you have interest in?</h3> 
+        <input type="checkbox" value="frontend development"/>
+        Frontend development<div></div>
+        <input type="checkbox" value="backend development"/>backend development<div></div>
+        <input type="checkbox" value="Machine learning"/> Machine learning<div></div>
+        <input type="checkbox" value="Cyber security"/> Cyber security<div></div>
+        <input type="checkbox" value="data science"/> Data science<div></div>
+        <input type="checkbox" value="product management"/>Product management<div></div>
+        </fieldset>
+        <fieldset>
+          <label for="profile picture">Upload a Profile Picture <input type="file" id="profile-picture" name="file"></label><div></div>
+          <div>
+        <label for="bio">
+<textarea id="bio" name="bio" cols="30" rows="3"placeholder="please include your bio..."></textarea></label></div>
+<label for="terms-and-conditions">I accept the terms and conditions <input class="inline" type="checkbox" value="terms-and-conditions" id="terms-and-conditions"></label><div></div>
+  <button id="submit">Submit</button>
+  </fieldset>
+    </form>
+  </body>
+  </html>
